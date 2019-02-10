@@ -9,7 +9,8 @@ http://localhost:8888/swagger-ui.html <BR />
 1. GET: http://localhost:8888/users <BR />
 2. POST: http://localhost:8888/users <BR />
 Request <BR />
-	Body: application/json<BR />
+Content-Type: application/json<BR />
+	Body: <BR />
 ```
 
 {
@@ -36,6 +37,26 @@ Request <BR />
     "active": "Y"
 }
 ```
+
+4. DELETE: http://localhost:8888/users/jdoe <BR />
+
+5. PATCH: http://localhost:8888/users/jdoe <BR />
+Request <BR />
+Content-Type: application/json<BR />
+	Body: <BR />
+```
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+   "emailAddress": "jdoe@youremaildomain.com"
+}
+
+```
+
+
+	
+
 	
 	
 
