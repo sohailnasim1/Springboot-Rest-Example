@@ -1,2 +1,2 @@
-<h1>Springboot Rest Application that demonstrates CRUD operation</h1>
+<h1>Springboot Rest Application that demonstrates CRUD operations</h1>
 Author: Sohail Nasim
