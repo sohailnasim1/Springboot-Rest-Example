@@ -3,6 +3,21 @@ Author: **Sohail Nasim**
 
 This project was developed in [Spring Tool Suite](http://spring.io/tools/sts)
 
+## Database
+
+**H2  Embedded (Local) file based Database**
+
+Schema is generated when springboot application starts
+
+URL: (http://localhost:8888/h2)
+
+DB Name: useradmindb
+
+Username: sa
+
+Password:
+
+
 ## How to run it
 1. You need JDK 1.8 to run this project.
 2. Make sure you have [Apache Maven](https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.
