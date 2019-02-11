@@ -1,14 +1,14 @@
 # Springboot Rest Application that demonstrates CRUD operations
 Author: **Sohail Nasim**
 
-This project was developed in [Spring Tool Suite] (http://spring.io/tools/sts)
+This project was developed in [Spring Tool Suite](http://spring.io/tools/sts)
 
 ## How to run it
 1. You need JDK 1.8 to run this project.
-2. Make sure you have [Apache Maven] (https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.
-3. Install the [Git Bash] (https://git-scm.com/download) or download the repository zip file and unzip it.
+2. Make sure you have [Apache Maven](https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.
+3. Install the [Git Bash](https://git-scm.com/download) or download the repository zip file and unzip it.
 
-Run following commands:
+Run following command to compile and to create the jar file:
 
 ```
 cd Springboot-Rest-Example
