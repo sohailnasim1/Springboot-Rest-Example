@@ -16,7 +16,7 @@ mvn package
 
 ```
 
-To run the the boot microservice run following command:
+How to run Springboot microservices locally:
 
 ```
 java -jar target/UserAdmin-0.0.1-SNAPSHOT.jar
