@@ -2,17 +2,18 @@
 Author: Sohail Nasim <BR />
 
 <h2>How to run it</h2>
-1. Make sure you have maven (https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.<BR />
-2. Install the Git bash (https://git-scm.com/download) or download the repository zip file and unzip it <BR />
+1. You need JDK 1.8 to run this project <BR />
+2. Make sure you have maven (https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.<BR />
+3. Install the Git bash (https://git-scm.com/download) or download the repository zip file and unzip it <BR />
 
 Run following commands <BR />
-3. <code>cd Springboot-Rest-Example</code> <BR />
+<code>cd Springboot-Rest-Example</code> <BR />
 
-4. <code>mvn package</code> <BR />
+<code>mvn package</code> <BR />
 
 To run the the boot microservice run following command <BR>
 
-5. <code>java -jar target/UserAdmin-0.0.1-SNAPSHOT.jar</code>
+<code>java -jar target/UserAdmin-0.0.1-SNAPSHOT.jar</code>
 
 <h2>API documentation for Rest service</h2>
 http://localhost:8888/swagger-ui.html <BR />
