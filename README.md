@@ -1,4 +1,4 @@
-# Springboot Rest Application that demonstrates CRUD operations
+# Springboot Restful web services CRUD example
 Author: **Sohail Nasim**
 
 This project was developed in [Spring Tool Suite](http://spring.io/tools/sts)
@@ -25,7 +25,7 @@ java -jar target/UserAdmin-0.0.1-SNAPSHOT.jar
 ## API documentation for Rest service
 http://localhost:8888/swagger-ui.html
 
-## Http operations Examples
+## Examples
 
 * GET: http://localhost:8888/users
 
