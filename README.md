@@ -1,6 +1,8 @@
 <h1>Springboot Rest Application that demonstrates CRUD operations</h1>
 Author: Sohail Nasim <BR />
 
+This project was developed in Spring Tool Suite (http://spring.io/tools/sts)<Br />
+
 <h2>How to run it</h2>
 1. You need JDK 1.8 to run this project <BR />
 2. Make sure you have maven (https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.<BR />
