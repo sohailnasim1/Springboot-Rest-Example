@@ -1,5 +1,5 @@
 # Springboot Restful web services CRUD example
-Contributer: **Sohail Nasim**
+Contributor: **Sohail Nasim**
 
 This project was developed in [Spring Tool Suite](http://spring.io/tools/sts)
 
