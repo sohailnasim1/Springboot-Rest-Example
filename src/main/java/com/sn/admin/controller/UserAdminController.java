@@ -30,7 +30,7 @@ import com.sn.admin.service.UserService;
 @RequestMapping(path = "/users", produces = "application/json")
 @CrossOrigin(origins = "*")
 @RestController
-public class UserAminController {
+public class UserAdminController {
 
 	@Autowired
 	private UserService userService;
