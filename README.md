@@ -21,7 +21,15 @@ Password:
 ## How to run it
 1. You need JDK 1.8 to run this project.
 2. Make sure you have [Apache Maven](https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.
-3. Install the [Git Bash](https://git-scm.com/download) or download the repository zip file and unzip it.
+3. Install the [Git Bash](https://git-scm.com/download) and clone the repository
+ from Git Bash
+ 
+```
+clone https://github.com/sohailnasim1/Springboot-Rest-Example.git
+ 
+```
+
+ or download the repository zip file and unzip it to local folder.
 
 Run following command to compile and to create the jar file:
 
