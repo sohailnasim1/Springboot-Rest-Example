@@ -1,9 +1,9 @@
-#Springboot Rest Application that demonstrates CRUD operations
+# Springboot Rest Application that demonstrates CRUD operations
 Author: **Sohail Nasim**
 
 This project was developed in [Spring Tool Suite] (http://spring.io/tools/sts)
 
-##How to run it
+## How to run it
 1. You need JDK 1.8 to run this project.
 2. Make sure you have [Apache Maven] (https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.
 3. Install the [Git Bash] (https://git-scm.com/download) or download the repository zip file and unzip it.
@@ -22,10 +22,10 @@ To run the the boot microservice run following command:
 java -jar target/UserAdmin-0.0.1-SNAPSHOT.jar
 ```
 
-##API documentation for Rest service
+## API documentation for Rest service
 http://localhost:8888/swagger-ui.html
 
-##Http operations Examples
+## Http operations Examples
 
 * GET: http://localhost:8888/users
 
