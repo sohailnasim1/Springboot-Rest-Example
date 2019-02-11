@@ -1,35 +1,45 @@
-<h1>Springboot Rest Application that demonstrates CRUD operations</h1>
-Author: Sohail Nasim <BR />
+#Springboot Rest Application that demonstrates CRUD operations
+Author: **Sohail Nasim**
 
-This project was developed in Spring Tool Suite (http://spring.io/tools/sts)<Br />
+This project was developed in [Spring Tool Suite] (http://spring.io/tools/sts)
 
-<h2>How to run it</h2>
-1. You need JDK 1.8 to run this project <BR />
-2. Make sure you have maven (https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.<BR />
-3. Install the Git bash (https://git-scm.com/download) or download the repository zip file and unzip it <BR />
+##How to run it
+1. You need JDK 1.8 to run this project.
+2. Make sure you have [Apache Maven] (https://maven.apache.org/download.cgi) installed. Add the bin directory to your PATH.
+3. Install the [Git Bash] (https://git-scm.com/download) or download the repository zip file and unzip it.
 
-Run following commands <BR />
+Run following commands:
 
-<code>cd Springboot-Rest-Example</code> <BR />
+```
+cd Springboot-Rest-Example
+mvn package
 
-<code>mvn package</code> <BR />
-
-To run the the boot microservice run following command <BR>
-
-<code>java -jar target/UserAdmin-0.0.1-SNAPSHOT.jar</code>
-
-<h2>API documentation for Rest service</h2>
-http://localhost:8888/swagger-ui.html <BR />
-
-<h2>Http operations Examples</h2>
-
-1. GET: http://localhost:8888/users <BR />
-2. POST: http://localhost:8888/users <BR />
-Request <BR />
-Content-Type: application/json<BR />
-	Body: <BR />
 ```
 
+To run the the boot microservice run following command:
+
+```
+java -jar target/UserAdmin-0.0.1-SNAPSHOT.jar
+```
+
+##API documentation for Rest service
+http://localhost:8888/swagger-ui.html
+
+##Http operations Examples
+
+* GET: http://localhost:8888/users
+
+
+* POST: http://localhost:8888/users
+
+
+**Request:**
+
+Content-Type: application/json
+
+Body:
+
+```
 {
   "username": "jdoe",
   "password": "password",
@@ -37,12 +47,11 @@ Content-Type: application/json<BR />
   "lastName": "Doe",
    "emailAddress": "jdoe@youremaildomain.com"
 }
-
 ```
 
-3. GET: http://localhost:8888/users/jdoe <BR />
+* GET: http://localhost:8888/users/jdoe
 	
-	Response <BR />
+**Response:**
 	
 ```
 {
@@ -55,14 +64,18 @@ Content-Type: application/json<BR />
 }
 ```
 
-4. DELETE: http://localhost:8888/users/jdoe <BR />
+* DELETE: http://localhost:8888/users/jdoe
 
-5. PATCH: http://localhost:8888/users/jdoe <BR />
-Request <BR />
-Content-Type: application/json<BR />
-	Body: <BR />
+
+* PATCH: http://localhost:8888/users/jdoe
+
+**Request:**
+
+Content-Type: application/json
+
+Body:
+
 ```
-
 {
   "firstName": "John",
   "lastName": "Doe",
@@ -70,11 +83,3 @@ Content-Type: application/json<BR />
 }
 
 ```
-
-
-	
-
-	
-	
-
-
