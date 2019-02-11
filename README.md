@@ -7,7 +7,7 @@ This project was developed in [Spring Tool Suite](http://spring.io/tools/sts)
 
 **H2  Embedded (Local) file based Database**
 
-Schema is generated when springboot application starts
+Schema and 'USERS' table is generated when springboot application starts
 
 URL: (http://localhost:8888/h2)
 
