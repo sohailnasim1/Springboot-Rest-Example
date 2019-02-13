@@ -18,6 +18,7 @@ import lombok.RequiredArgsConstructor;
 @Table(name="users")
 public class User {
 	@Id
+	@Column(updatable=false)
 	private String username;
 	private String password;
 	@Column(name="firstname")

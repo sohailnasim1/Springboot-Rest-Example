@@ -25,7 +25,7 @@ Password:
  from Git Bash
  
 ```
-clone https://github.com/sohailnasim1/Springboot-Rest-Example.git
+git clone https://github.com/sohailnasim1/Springboot-Rest-Example.git
  
 ```
 
