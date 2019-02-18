@@ -79,7 +79,6 @@ Body:
 ```
 {
     "username": "jdoe",
-    "password": "password",
     "firstName": "John",
     "lastName": "Doe",
     "emailAddress": "jdoe@youremaildomain.com",
